@@ -1,0 +1,37 @@
+Ref,Qty,Value,Package,Manufacturer Part,LCSC,Link,Unit Price (USD),Ext Price (USD),Notes
+C1,1,100nF 50V X7R,0805,,,https://lcsc.com/search?q=100nF+0805+X7R,,,VG bypass
+C2,1,220nF 50V X7R,0805,,,https://lcsc.com/search?q=220nF+0805+X7R,,,COM compensation
+C5,1,22uF 10V X5R,0805,,,https://lcsc.com/search?q=22uF+0805+X5R,,,Boost output
+C6,1,10uF 25V X5R,1206,,,https://lcsc.com/search?q=10uF+1206+25V+X5R,,,Panel input
+C7,1,10uF 25V X5R,1206,,,https://lcsc.com/search?q=10uF+1206+25V+X5R,,,Panel input
+C8,1,22uF 25V X5R,1206,,,https://lcsc.com/search?q=22uF+1206+25V+X5R,,,Battery bulk
+C9,1,10uF 10V X5R,0805,,,https://lcsc.com/search?q=10uF+0805+X5R,,,Boost input
+D1,1,SS34 40V 3A Schottky,SMA,SS34,C8678,https://www.lcsc.com/product-detail/C8678.html,,,Buck freewheel diode
+L1,1,10uH 3.1A shielded,SRN8040 8x8x4mm,SRN8040TA-100M,,https://www.bourns.com/products/magnetic-products/power-inductors,,,Buck inductor. Must be 8x8mm and rated above 2.4A
+L2,1,2.2uH shielded,NR4018 4x4mm,NR4018T2R2M,C135262,https://www.lcsc.com/product-detail/C135262.html,,,Boost inductor
+LED1,1,Red LED,0603,KT-0603R,C2286,https://www.lcsc.com/product-detail/C2286.html,,,Charging indicator
+LED2,1,Yellow-green LED,0805,,C28105,https://www.lcsc.com/product-detail/C28105.html,,,Charge complete indicator
+P1,1,2-pin screw terminal 7.62mm,THT,WJ25C-B-7.62-02P,C8422,https://www.lcsc.com/product-detail/C8422.html,,,Solar panel input
+P2,1,2-pin screw terminal 7.62mm,THT,WJ25C-B-7.62-02P,C8422,https://www.lcsc.com/product-detail/C8422.html,,,Battery pack
+Q1,1,AOD4185 P-MOSFET -40V -40A,TO-252,AOD4185,C2564,https://www.lcsc.com/product-detail/C2564.html,,,Buck high-side switch
+R1,1,357k 1%,0805,,,https://lcsc.com/search?q=357k+0805+1%25,,,MPPT divider upper
+R2,1,100k 1%,0805,,,https://lcsc.com/search?q=100k+0805+1%25,,,MPPT divider lower
+R3,1,1k,0805,,,https://lcsc.com/search?q=1k+0805,,,LED1 series
+R4,1,1k,0805,,,https://lcsc.com/search?q=1k+0805,,,LED2 series
+R5,1,0.05R 1% 1W,2512,,,https://lcsc.com/search?q=0.05R+2512+1%25,,,Charge current sense. Sets 2.4A
+R9,1,56k 1%,0805,,,https://lcsc.com/search?q=56k+0805+1%25,,,CC2 pull-up
+R12,1,100k,0805,,,https://lcsc.com/search?q=100k+0805,,,Boost enable pull-down
+R14,1,750k 1%,0805,,,https://lcsc.com/search?q=750k+0805+1%25,,,Boost feedback upper
+R15,1,100k 1%,0805,,,https://lcsc.com/search?q=100k+0805+1%25,,,Boost feedback lower
+R16,1,56k 1%,0805,,,https://lcsc.com/search?q=56k+0805+1%25,,,CC1 pull-up
+R17,1,120R,0805,,,https://lcsc.com/search?q=120R+0805,,,COM compensation
+SW1,1,SPDT slide switch THT,OS102 series,OS102011MS2Q,,https://www.ckswitches.com/products/switches/product-details/Slide/OS/,,,Boost on/off
+U1,1,CN3791 MPPT charger,SSOP-10,CN3791,C154992,https://www.lcsc.com/product-detail/C154992.html,,,Solar charge controller
+U2,1,TPS61023 boost converter,SOT-563,TPS61023DRLR,C919459,https://www.lcsc.com/product-detail/C919459.html,,,5V boost
+U3,1,USB-C receptacle 16-pin,SMD + 4 THT posts,XKB U262-16XN-4BVC11,C319148,https://www.lcsc.com/product-detail/C319148.html,,,5V output
+PCB,1,2-layer 90x60mm 1.6mm FR4,,,,https://jlcpcb.com,,,Order 5 minimum
+BATT,3,18650 Li-ion cell unprotected,,,,https://lcsc.com,,,1S3P pack. Must be UNPROTECTED cells
+BMS,1,1S Li-ion BMS 10A,,,,https://lcsc.com,,,One BMS for the whole pack
+PANEL,1,6V 12W solar panel,,,,,,,~6.9V Voc. Not on the board
+SCREW,4,M3 x 8mm screw + nut,,,,,,,Board mounting
+,,,,,,,TOTAL,,Fill unit prices then sum the Ext Price column
